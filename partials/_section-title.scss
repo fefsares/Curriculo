@@ -1,0 +1,25 @@
+.section-title{
+    width: 100%;
+    padding: 10px;
+}
+.top-section{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.title{
+    font-size: 32px;
+    margin-left: 10px;
+}
+.div-icon{
+    background-color: $white-light;
+    box-shadow: 0px 2px 1px gray;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 2px;
+}

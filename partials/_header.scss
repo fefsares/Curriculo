@@ -1,0 +1,79 @@
+header{
+    display: flex;
+    height: 368px;
+    width: 100%;
+    justify-content: space-between;
+    color: $white-dark;
+    background-color: $secondary-normal;
+}
+.me{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%, 0% 0%);
+    max-width: 50%;
+    height: auto;
+}
+.informations{
+    background-color: $secondary-normal;
+    display: flex;
+    width: 50%;
+    padding: 30px;
+    flex-direction: column;
+}
+@media (max-width: 2000px){
+    .name{
+        color: $white-light;
+        font-size: 48px;
+    }
+    .ocupation{
+        font-size: 28px;
+    }
+    .email{
+        margin-bottom: 5px;
+        font-size: 24px;
+    }
+    .whatsapp{
+        font-size: 24px;
+    }
+}
+@media (max-width: 920px){
+    .name{
+        color: $white-light;
+        font-size: 38px;
+    }
+    .ocupation{
+        font-size: 24px;
+    }
+    .email{
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    .whatsapp{
+        font-size: 16px;
+    }
+}
+@media (max-width: 400px){
+    .name{
+        color: $white-light;
+        font-size: 24px;
+    }
+    .ocupation{
+        font-size: 18px;
+    }
+    .email{
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .whatsapp{
+        font-size: 12px;
+    }
+}
+.textShadow{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.contact{
+    margin-top: 12%;
+    flex-direction: column;
+    display: flex;
+}
+ion-icon {
+    font-size: 31px;
+}
