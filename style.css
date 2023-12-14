@@ -77,10 +77,6 @@ header {
     font-size: 12px;
   }
 }
-.textShadow {
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-}
-
 .contact {
   margin-top: 12%;
   flex-direction: column;
@@ -118,6 +114,78 @@ ion-icon {
   align-items: center;
   display: flex;
   border-radius: 2px;
+}
+
+.section-history {
+  width: 100%;
+  padding: 20px;
+  height: 70vh;
+}
+
+.school {
+  display: flex;
+  margin: 10px;
+}
+
+.align-information {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: start;
+}
+
+.second {
+  justify-content: end;
+}
+
+.align-circle {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+  padding-right: 30px;
+}
+
+.school-circle {
+  background-color: #222B61;
+  width: 68px;
+  height: 68px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  -webkit-clip-path: circle(40%);
+          clip-path: circle(40%);
+}
+
+.text-circle {
+  color: #FFFFFF;
+}
+
+.school-information {
+  background-color: #EDEAEF;
+  width: 30%;
+  height: 156px;
+  padding: 10px;
+  box-shadow: 0px 2px 2px gray;
+}
+
+.border-left {
+  border-left-color: #B74168;
+  border-left-width: 10px;
+  border-left-style: solid;
+}
+
+.border-right {
+  border-right-color: #B74168;
+  border-right-width: 10px;
+  border-right-style: solid;
+}
+
+.line {
+  width: 19%;
+  border-bottom: 1px solid #000000;
 }
 
 body {

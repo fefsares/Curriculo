@@ -1,0 +1,60 @@
+.section-history{
+    width: 100%;
+    padding: 20px;
+    height: 70vh;
+}
+.school{
+    display: flex;
+    margin: 10px;
+}
+.align-information{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+}
+.second{
+    justify-content: end;
+}
+.align-circle{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    padding-right: 30px;
+}
+.school-circle{
+    background-color: $primary-dark;
+    width: 68px;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    clip-path: circle(40%);
+}
+.text-circle{
+    color: $white-light;
+}
+.school-information{
+    background-color: $white-dark;
+    width: 30%;
+    height: 156px;
+    padding: 10px;
+    box-shadow: 0px 2px 2px gray;    
+}
+.border-left{
+    border-left-color: $pink-normal;
+    border-left-width: 10px;
+    border-left-style: solid;
+}
+.border-right{
+    border-right-color: $pink-normal;
+    border-right-width: 10px;
+    border-right-style: solid;
+}
+.line {
+    width: 19%;
+    border-bottom: 1px solid #000000;
+}
